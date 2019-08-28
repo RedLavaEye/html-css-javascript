@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Hoja De Vida</title>
+</head>
+
+<body>
+    <header>
+        <h1>Soy Sergio Álvarez</h1>
+    </header>
+    <hr>
+    <nav>
+        <a href="index.html">home</a>
+        <a href="educacion.html">educación</a>
+        <a href="multimedia.html">multimedia</a>
+    </nav>
+    <main>
+        <h2>Educación Recibida</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>Título</th>
+                    <th>¿Culminó?</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1987</td>
+                    <td>UPB</td>
+                    <td>Medellín</td>
+                    <td>Bachiller</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>Cole</td>
+                    <td>Medellín</td>
+                    <td>Diseñador G.</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Devf</td>
+                    <td>Medellín</td>
+                    <td>Cinta Blanca</td>
+                    <td>Sí</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <form>
+            <fieldset>
+                <legend><h2>Agregar Estudios</h2></legend>
+                <label for="anos">Año</label>
+                <select name="anos">
+                    <option value="2019">Dos Mil Diecinueve</option>
+                    <option value="2018">Dos Mil Dieciocho</option>
+                    <option value="2017">Dos Mil Diecisiete</option>
+                    <option value="2016">Dos Mil Dieciseis</option>
+                </select>
+                <br>
+                <br>
+                <label for="inst">Institución</label>
+                <input type="text" name="inst" placeholder="ingrese institución" required>
+                <br>
+                <input type="number" placeholder="ingrese su edad">
+                <br>
+                <input type="password" placeholder="ingrese su contraseña" minlength="1" maxlength="8" required>
+                <br>
+                <input type="date" placeholder="ingrese fecha de nacimiento">
+                <br>
+                <input type="email" placeholder="ingrese su email">
+                <br>
+                <label for="comentarios">comentario</label> <br>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="radio" name="genero" value="F">femenino
+                <input type="radio" name="genero" value="M">masculino
+                <input type="radio" name="genero" value="I">Otro
+                <br>
+                
+                <input type="checkbox">Sí
+                <input type="checkbox">No
+                <br>
+                <br>
+                <input type="submit">
+                <button onclick="">Enviar</button>
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend><h3>Contáctanos</h3></legend>
+                <label for="email">email</label>
+                <input type="email" placeholder="ingrese su email" required>
+                <br>
+                <input type="text" name="nombre" placeholder="ingrese su nombre" required>
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados 2019 <a
+                href="https://es-la.facebook.com/pages/category/Just-For-Fun/South-Park-Capitulos-Latinos-838994262885975/"
+                target="_blank">Facebook</a> | <a href="mailto:visual.alvarez@gmail.com">Escríbeme</a></p>
+
+    </footer>
+</body>
+
+</html>
